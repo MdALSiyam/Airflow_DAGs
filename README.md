@@ -1,6 +1,6 @@
-# Apache Airflow ETL & Data Pipelines
+# **Apache Airflow ETL & Data Pipelines**
 
-A robust, enterprise-ready collection of Apache Airflow DAGs and Python scripts for automated **ETL workflows**, **database synchronization**, and **remote file processing** across FTP, SFTP, Oracle, and PostgreSQL.
+A robust, enterprise-ready collection of Apache Airflow DAGs and Python scripts for automated ETL workflows, database synchronization, and remote file processing across FTP, SFTP, Oracle, and PostgreSQL.
 
 ---
 
@@ -27,10 +27,7 @@ A robust, enterprise-ready collection of Apache Airflow DAGs and Python scripts 
 Install the required provider packages in your Airflow virtual environment:
 
 ```bash
-pip install \
-  pandas \
-  psycopg2-binary \
-  requests \
+  pip install pandas psycopg2-binary requests \
   apache-airflow-providers-oracle \
   apache-airflow-providers-postgres \
   apache-airflow-providers-sftp \
